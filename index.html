@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detona Ralph</title>
+
+    <link rel="stylesheet" href="./assets/estilos/estilos.css">
+</head>
+<body>
+    <main>
+        <div class="menu">
+            <div class="tempo">
+                <h2 class="h2Tempo">Tempo Restante</h2>
+                <h2 id="tempoRestante">0</h2>
+            </div>
+            <div class="score">
+                <h2 class="h2Score">Score</h2>
+                <h2 id="pontos">0</h2>
+            </div>
+            <div class="vidas">
+                <img src="./assets/imagens/player.png" alt="">
+                <h2 id="vida">x3</h2>
+            </div>
+        </div>
+        <div class="painel">
+            <div class="painel-row">
+                <div class="mini-pedaco enemy" id="1"></div>
+                <div class="mini-pedaco" id="2"></div>
+                <div class="mini-pedaco" id="3"></div>
+            </div>
+            <div class="painel-row">
+                <div class="mini-pedaco" id="4"></div>
+                <div class="mini-pedaco" id="5"></div>
+                <div class="mini-pedaco" id="6"></div>
+            </div>
+            <div class="painel-row">
+                <div class="mini-pedaco" id="7"></div>
+                <div class="mini-pedaco" id="8"></div>
+                <div class="mini-pedaco" id="9"></div>
+            </div>
+        </div>
+        <div id="botoes">
+            <div>
+                <button class="parar" type="submit" value="parar">Parar</button>
+            </div>
+            <div>
+                <button class="reiniciar" type="submit" value="reiniciar">Reiniciar</button>
+            </div>
+        </div>
+    </main>
+    
+    <script defer src="./assets/codigos/main.js"></script>
+</body>
+</html>
